@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+body{margin:0;background:#f3f6f5;color:#1d2b2a;font:16px/1.7 "Segoe UI",Tahoma,system-ui,sans-serif}
+header{background:#0f5c5a;color:#fff;padding:10px 16px;display:flex;justify-content:space-between;align-items:center}
+header button{background:#fff;color:#0f5c5a}
+main{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+footer{text-align:center;color:#566866;font-size:.85rem;padding:16px}
+h2{font-size:1.25rem;margin:0 0 10px}
+.card{background:#fff;border:1px solid #d3dcda;border-radius:8px;padding:12px 14px;margin-bottom:12px}
+input,select{font:inherit;padding:8px 10px;border:1px solid #b8c6c4;border-radius:6px;margin:0 0 8px;width:100%}
+button{font:inherit;border:0;border-radius:6px;padding:8px 16px;background:#0f5c5a;color:#fff;cursor:pointer;margin:2px 0 2px 6px}
+button.alt{background:#fff;color:#0f5c5a;border:1px solid #0f5c5a}
+button:disabled{background:#9db3b1}
+:focus-visible{outline:3px solid #e0a100;outline-offset:2px}
+.row{display:flex;gap:8px;flex-wrap:wrap}.row>*{flex:1 1 180px}
+table{width:100%;border-collapse:collapse}td,th{padding:6px 8px;border-bottom:1px solid #e1e8e6;text-align:start}
+#msg{min-height:1.6em;color:#17603f;margin-bottom:8px}#msg.bad,.bad{color:#9c2229}
+.mut{color:#566866;font-size:.92rem}
